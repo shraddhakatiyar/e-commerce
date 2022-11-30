@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  min-height: 100vh;
+  width: 100%;
+  background-color: #3dd1b6;
+}
+
+#csss{
+  background: lightgray;
+}
+
+#product{
+  display: flex;
+  align-items: center;
+}
+
+.container{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  max-width: 430px;
+  width: 100%;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 5px 30px  ;
+
+
+  
+}
+
+
+
+.container .form{
+  padding: 2rem;
+}
+
+.form header{
+
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1.5rem;
+
+}
+
+.form label.text{
+  /* font-weight:bold; */
+  font-weight: 600;
+
+}
+
+
+.form input{
+  height: 45px;
+  width:100%;
+  padding:0 10px;
+  font-size: 15px;
+  margin-bottom: 1.3rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  /* outline: none; */
+
+}
+
+.form input:focus{
+  outline-color:  rgba(70, 221, 247, 0.2);
+
+}
+
+.form input.button{
+  color: #fff;
+  background:#0275d8;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor:pointer;
+  transition: 0.4s;
+
+}
+
+.form input.button:hover{
+  background: #1a8975;
+
+}
+
+/* .containerP{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  max-width: 80%;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 5px 30px  ;
+ 
+}
+
+.containerP header{
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1.5rem;
+
+ 
+}
+
+
+.products{
+    text-align: center;
+  }
+
+.products button{
+  padding: 5px;
+  margin: 0px 10px 15px;
+  color: #fff;
+  background: #1b7e6c;
+  font-size: 1rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+  cursor:pointer;
+  transition: 0.4s;
+  border-radius: 6px;
+
+}
+
+
+.product-images{
+  display: flex;
+  justify-content: center; 
+}
+.product-images>img{
+  margin: 10px;
+  width: 20%;
+  height: 20%;
+} */
+
+.flex-container{
+ display: flex;
+ justify-content: center;
+}
+
+.header{
+  font-size: 1.5rem;
+  font-weight: 500;
+  background-color: black;
+  height: 50px;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+}
+
+.product-button button{
+  padding: 6px;
+  margin: 50px 0px 20px 20px;
+  color: #fff;
+  background: #1b7e6c;
+  font-size: 1rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+  cursor:pointer;
+  transition: 0.4s;
+  border-radius: 6px;
+ }
+
+ .product-images {
+  display: flex;
+
+  justify-content: center;
+  align-items: center; 
+}
+.product-images>img{
+  margin: 10px;
+  width: 20%;
+  height: 20%;
+  border-radius: 5px;
+} 
+ 
+
